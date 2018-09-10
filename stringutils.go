@@ -15,5 +15,5 @@ func SayHello(name string)string{
 
 func SayBye(name string)string{
 
-	return fmt.Sprintf("Bye %s hope to see you soon again!")
+	return fmt.Sprintf("Bye %s hope to see you soon again!\ns")
 }
