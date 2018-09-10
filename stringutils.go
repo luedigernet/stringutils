@@ -12,3 +12,8 @@ func SayHello(name string)string{
 	log.Debug("Leaving SayHello method")
 	return ""
 }
+
+func SayBye(name string)string{
+
+	return fmt.Sprintf("Bye %s hope to see you soon again!")
+}
